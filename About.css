@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgba(199, 177, 117, 0.623);
+
+}
+
+
+.topbar{
+    background-color: rgb(23, 153, 192);
+    overflow: hidden;
+    position: static;
+    white-space: normal;
+    
+}
+.topbar a{
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+.topbar a:hover{
+    background-color: rgb(243, 181, 11);
+    color: black;
+}
+.bar{
+    display: inline-flex;
+    float: right;
+}
+.image{
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 30px;
+    position: static;
+    white-space: normal;
+    
+}
+.image2{
+    width: 500px;
+    height: 350px;
+    position: static;
+    border-radius: 10px;
+    white-space: normal;
+    right: 30px;
+    bottom: 0px;
+    margin-left: 700px;
+    margin-top: -80px;
+}
+
+.content1{
+    /* background-color: blue; */
+    float: right;
+    align-items: center;
+    margin-top: -180px;
+    margin-right: 430px;
+    text-align: center;
+    width: 300px;
+    position: static;
+    white-space: normal;
+    
+}
+
+.content2{
+    /* background-color: blue; */
+    float: left;
+    align-items: center;
+    margin-bottom: 1000px;
+    margin-right: -300px;
+    text-align: center;
+    width: 300px;
+    position: static;
+    /* white-space: normal; */
+}
+.red{
+    padding-top:10px ;
+    padding-left: 10px;
+    float: left;
+}
